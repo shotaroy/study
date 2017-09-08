@@ -1,0 +1,48 @@
+<html
+<head>
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+     $("#b").click(function(){
+		alert("good morning");
+	  });
+	  
+	 $("#c").click(function(){
+		alert("good evnig");
+	  });
+	  
+	 $("#d").click(function(){
+		alert("good night");
+	  });
+	  
+	 $("#e").click(function(){
+	     $("#f").hide();
+	 });
+
+	 $("#g").click(function(){
+	     $("#f").show();
+	 }); 
+	 
+	 $("#h").click(function(){
+	     $("#f").text("name");
+	 });
+	 
+	 $("#j").click(function(){
+	     var a=$("#i").val();
+		 alert(a);
+	 });
+});
+</script>
+</head>
+<body>
+<input id="b" type="button" value="signup1">
+<input id="c" type="button" value="signup2">
+<input id="d" type="button" value="signup3">
+<h3 id="f">misao</h3>
+<input id="e" type="button" value="signup4"> 
+<input id="g" type="button" value="signup5">
+<input id="h" type="button" value="signup6">
+<input id="i" type="text">
+<input id="j" type="button" value="signup8">
+</body>
+</html>

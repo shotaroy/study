@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="practicema2.css" >
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+	 $("#d").click(function(){
+	     var a=$("#a").val();
+		 alert(a);
+	     var b=$("#b").val();
+		 alert(b);
+		 var c=$("#c").val();
+		 alert(c);
+	 });
+	    $("#e").click(function(){
+	     $("#f").text("Wellcome in MISAO");
+	 });
+	 
+	  $("#i").click(function(){
+	     $("#g").attr("src","C:/Users/安永/Pictures/practice1/thEEZO9G2V.jpg");
+		 $("#h").attr("src","C:/Users/安永/Pictures/practice1/aff_data006.jpg");
+		 $("#j").attr("src","C:/Users/安永/Pictures/practice1/EBIp_is7aox2o-0.jpg");
+		 });
+	    
+	  $("#i2").click(function(){
+	     $("#g").attr("src","C:/Users/安永/Pictures/practice1/EBIp_is7aox2o-0.jpg");
+		 $("#h").attr("src","C:/Users/安永/Pictures/practice1/thEEZO9G2V.jpg");
+		 $("#j").attr("src","C:/Users/安永/Pictures/practice1/aff_data006.jpg");
+		 });
+		 
+	  $("#i3").click(function(){
+	     $("#g").attr("src","C:/Users/安永/Pictures/practice1/aff_data006.jpg");
+		 $("#h").attr("src","C:/Users/安永/Pictures/practice1/EBIp_is7aox2o-0.jpg");
+		 $("#j").attr("src","C:/Users/安永/Pictures/practice1/thEEZO9G2V.jpg");
+		 });
+});
+
+
+</script>	 
+</head>
+<body>
+<input id="a"  type="text">
+<input id="b"  type="text">
+<input id="c"  type="text">
+<input id="d"  type="button" value="button">
+<input id="e"  type="button" value="button2">
+<input id="i"  type="button" value="button3">
+<input id="i2"  type="button" value="button4">
+<input id="i3"  type="button" value="button5">
+<h3 id="f">Hello</h3>
+<img   id="g"   src="C:/Users/安永/Pictures/practice1/aff_data006.jpg" style="height:30%;width:30%">
+<img   id="h"   src="C:/Users/安永/Pictures/practice1/EBIp_is7aox2o-0.jpg" style="height:30%;width:30%">
+<img   id="j"   src="C:/Users/安永/Pictures/practice1/thEEZO9G2V.jpg" style="height:30%;width:30%">
+</body>
+</html>

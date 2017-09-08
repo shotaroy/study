@@ -1,0 +1,26 @@
+#a input{
+	border-radius:10px;
+}
+
+#b {
+	width:450px;
+	height:30px;
+	background-color:orange;
+}
+
+#c {
+	width:450px;
+	height:30px;	
+}
+
+#d{
+	width:450px;
+	height:30px;
+	background-color:green;
+}
+
+#e {
+	width:450px;
+	height:30px;
+	background-color:blue;
+}

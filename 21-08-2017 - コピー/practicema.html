@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="practicema.css" >
+<script src="jquery.js"></script>
+<script>
+$(document).ready(function(){
+     $("#a").click(function(){
+	     alert("shotaro");
+	 });
+
+	 $("#b1").click(function(){
+	 $("#b2").hide();
+	 });
+	 
+	 $("#b3").click(function(){
+	 $("#b1").hide();
+	 $("#b2").show();
+	 });
+	 
+	 $("#b2").click(function(){
+	 $("#b1").show();    
+	
+	 });
+	 
+	 
+	 
+	 });
+</script>
+</head>
+<body>
+<input id="a" type="button" value="button1">
+<div id="b1" ></div>
+<div id="b2" ></div>
+<div id="b3" ></div>
+
+</body>
+</html>
